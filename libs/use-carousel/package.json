@@ -1,0 +1,19 @@
+{
+  "name": "@kwsites/use-carousel",
+  "version": "1.0.0",
+  "description": "React hook to simplify stepping through a series of items",
+  "scripts": {
+    "lint": "eslint --ext .ts,.tsx src",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@kwsites/react-babel": "^1.0.0",
+    "@kwsites/eslint-config-react": "^1.0.0",
+    "@kwsites/react-typescript-config": "^1.0.0",
+    "@testing-library/react": "^12.0.0"
+  },
+  "peerDependencies": {
+    "@types/react": "^17.0.14",
+    "react": "^17.0.2"
+  }
+}
