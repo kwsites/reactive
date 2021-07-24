@@ -1,0 +1,14 @@
+{
+  "name": "@kwsites/react-jest",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./jest-preset.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@types/jest": "^26.0.24",
+    "@types/testing-library__jest-dom": "^5.14.0",
+    "babel-jest": "^27.0.6",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.0.6"
+  }
+}
