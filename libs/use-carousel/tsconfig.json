@@ -1,3 +1,4 @@
 {
-  "extends": "@kwsites/react-typescript-config"
+  "extends": "@kwsites/react-typescript-config",
+  "files": ["src/index.ts"]
 }

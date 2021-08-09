@@ -2,12 +2,12 @@
   "compilerOptions": {
     "strict": true,
 
-    "target": "esnext",
-    "module": "esnext",
+    "target": "es5",
+    "module": "commonjs",
     "jsx": "react-jsx",
 
     "declaration": true,
-    "declarationMap": true,
+    "declarationMap": false,
 
     "esModuleInterop": true,
     "resolveJsonModule": true,

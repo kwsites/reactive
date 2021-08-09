@@ -2,13 +2,25 @@
   "name": "@kwsites/use-carousel",
   "version": "1.0.0",
   "description": "React hook to simplify stepping through a series of items",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib/",
+    "esm/"
+  ],
   "scripts": {
+    "build:cjs": "tsc --outDir lib",
+    "build:es": "tsc -m esNext --outDir esm",
+    "build": "yarn build:cjs && yarn build:es",
+    "clean": "git clean -fxd .",
     "lint": "eslint --ext .ts,.tsx src",
     "test": "jest"
   },
   "devDependencies": {
-    "@kwsites/react-babel": "^1.0.0",
     "@kwsites/eslint-config-react": "^1.0.0",
+    "@kwsites/react-babel": "^1.0.0",
     "@kwsites/react-typescript-config": "^1.0.0",
     "@testing-library/react": "^12.0.0"
   },
