@@ -7,6 +7,8 @@
   ],
   "scripts": {
     "bootstrap": "yarn && lerna bootstrap",
+    "build": "lerna run build",
+    "clean": "git clean -fxd -e .idea -e node_modules",
     "jest": "jest",
     "lint": "lerna run lint --stream",
     "lint:fix": "yarn lint -- --fix",
